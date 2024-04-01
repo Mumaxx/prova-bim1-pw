@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="formulario-login">
+        <h2>Formulário de Login Vertical</h2>
+        <form>
+            <label for="usuario">Usuário:</label><br>
+            <input type="text" id="usuario" name="usuario" 
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha"><br>
+            <input type="checkbox" id="lembrar" name="lembrar">
+            <label for="lembrar">Lembrar-me</label><br>
+            <input type="submit" value="LOGIN">
+        </form>
+        <a href="#">Esqueceu a senha?</a>
+    </div>
+    <footer>
+        Criado por @Samuelcodelife 
+    </footer>
+</body>
+</html>
+
+
+body {
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.XEHX6suK4GOnfK7mp0ptWQHaE7&pid=Api&P=0&h=180') ;
+    background-size:cover;
+    background-position: center;
+     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.formulario-login 
+{
+   
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    
+    
+    
+}
+
+.formulario-login h2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ccc;
+   
+
+
+}
+
+.formulario-login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-login input[type="text"],
+.formulario-login input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-login input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.formulario-login input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario-login input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.formulario-login a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.formulario-login a:hover {
+    text-decoration: underline;
+}
+ 
+footer{
+    background-color:  rgba(0, 0, 0, 0);
+    color: black;
+    display: flex;
+     margin-top: 500px;
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
